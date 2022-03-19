@@ -1,0 +1,40 @@
+footer {
+
+    footer.section {
+        margin-top: 80px;
+        padding-bottom: 80px;
+        position: relative;
+        background-color: var($box-bg);
+
+        a:hover {
+            color: unset;
+        }
+
+        a.logo:hover {
+            color: unset;
+        }
+            a.logo {
+            margin-top: -2.5rem;
+            display: block;
+        }
+        
+        footer .content {
+        margin-top: 20px;
+        }
+            .footer-menu {
+            list-style-type: none;   
+
+            a {
+                display: inline-block;
+                transition: transform .2s ease-in-out;
+            }
+            
+            a:hover {
+                transform: translateX(5px);
+                color: var(--main-color);
+            }
+        }
+
+}
+
+
